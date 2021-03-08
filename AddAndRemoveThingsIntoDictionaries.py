@@ -1,3 +1,7 @@
+"""
+Add And Remove Values into Dictionaries
+"""
+
 ThingsList = {}
 def AddThingsInList():
     while True:
@@ -21,7 +25,7 @@ def RemoveThingsFromList():
             if ThingsList[GiveThing] > 0:
                 ThingsList[GiveThing]-=1
                 print(ThingsList)
-            else:
+            else: 
                 print(f"{GiveThing} is over")
                 print(ThingsList)
         else:
