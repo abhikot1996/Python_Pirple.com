@@ -1,0 +1,5 @@
+# If file is small then use this "read()" function.
+# VacationFile=open("Vacation Places","r")
+# TheWholeFile= VacationFile.read()
+# print(TheWholeFile)
+# VacationFile.close()
