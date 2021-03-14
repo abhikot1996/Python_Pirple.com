@@ -1,14 +1,19 @@
 import os
+from os import walk
 import pathlib
 
 def AddFile():
     FileNameAdd = input("Enter File name: ")
-    AddFile = open(FileNameAdd, "w")
-    print(AddFile, " is added in Folder")
-    Whichtext = input("Enter text which want to Add: ")
-    AddFile.write(Whichtext)
-    print("Text is added in ", AddFile)
-    AddFile.close()
+    isfilenameexist = pathlib.Path(FileNameAdd)
+    if isfilenameexist.exists():
+        print("File is already exist")
+    else:
+        AddFile = open(FileNameAdd, "w")
+        print(FileNameAdd, " is added in Folder")
+        Whichtext = input("Enter text which want to Add: ")
+        AddFile.write(Whichtext)
+        print("Text is added in ", FileNameAdd)
+        AddFile.close()
 
 def ReadFile():
     RFileName = open(FileName, "r")
@@ -30,40 +35,47 @@ def Append():
     Addtext.write(Whichtext)
     Addtext.close()
 
-
 while True:
-    FileName = input("\n Enter file name or E to exit: ")
-    file = pathlib.Path(FileName)
-    if file.exists():
+    NewFile = input("""\nWant to add file, Enter 'Yes' or 'No' or 'E' to exit: """)
+    while True:
+        if NewFile=="Yes":
+            AddFile()
+            break
+        elif NewFile == "No":
+            filenames = next(walk("E:\AK\Study\Programming Languages\GitHub\Pirple.com\Python_Pirple.com"))
+            print(filenames)
+            FileName = input("\n Enter file name from above files or E to exit: ")
+            while True:
+                file = pathlib.Path(FileName)
+                if file.exists():
+                    print("\nA. Read file",end="\n")
+                    print("B. Delete file and start over,",end="\n")
+                    print("C. Add text in file", end="\n")
+                    print("E. Exit")
+                    option = input("Choose the option: ")
+                    if option == "A": # To Read file
+                        ReadFile()
+                    elif option == "B": # To Delete file
+                        Delete_StartOver()
+                    elif option == "C": # To Append file
+                        Append()
+                    elif option == "E":
+                        break
+                    else:
+                        print("Choose A, B, C or E ")
 
-        print("A. Read file", end="\n")
-        print("B. Delete file and start over", end="\n")
-        print("C. Add text in file", end="\n")
-        print("E. Exit")
-        option = input("Choose the option: ")
-        if option == "A": # To Read file
-            ReadFile()
-        elif option == "B": # To Delete file
-            Delete_StartOver()
-        elif option == "C": # To Append file
-            Append()
-        elif option == "E":
+                elif FileName == "E":
+                    break
+                else:
+                    print("File not exist")
+                    break
+
+            if FileName == "E":
+                break
+        elif NewFile == "E":
             break
         else:
-            print("Choose A, B or C ")
-
-    elif FileName == "E":
+            print("Enter 'Yes' or 'No' or for Exit 'E'")
+            break
+    if NewFile == "E":
         break
-
-    else:
-        print("File not exist")
-        WantToAdd = input(print("Want to add other file", end="\n"))
-        if WantToAdd == "Yes":
-            AddFile()
-        elif WantToAdd == "No": # it should go to the options to enter file name
-            ChooseOption()
-        # else:
-        #     print("Choose Yes or Not") # after it should ask again want to add file name
-
-        #     break
-
