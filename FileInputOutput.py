@@ -27,7 +27,7 @@ File Input Output
 # VacationFile.close()
 
 # e.g 3),
-# To Read Line by lien
+# To Read Line by line
 # VacationFile = open("Vacation Places","r")
 # FirstLine= VacationFile.readline()
 # print(FirstLine,end="")
@@ -42,7 +42,8 @@ File Input Output
 # VacationFile.write(FinalSpot)
 # VacationFile.close()
 
-# VacationFile=open("Vacation Places","r") # To read file after appending text
+# To read file after appending text
+# VacationFile=open("Vacation Places","r")
 # for spots in VacationFile:
 #     print(spots,end="")
 # VacationFile.close()
