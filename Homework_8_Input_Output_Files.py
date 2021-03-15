@@ -16,9 +16,11 @@ def AddFile():
         AddFile.close()
 
 def ReadFile():
+    LineNo=0
     RFileName = open(FileName, "r")
     for lines in RFileName:
-        print(lines, end="")
+        LineNo+=1
+        print(LineNo,".",lines, end="")
     RFileName.close()
 
 def Delete_StartOver():
@@ -34,8 +36,23 @@ def Append():
     Addtext.write("\n")
     Addtext.write(Whichtext)
     Addtext.close()
+def RepalceLine():
+    if file.exists():
+        ReadFile()
+        EnteredLineNo = int(input("Enter Line no which you want to replace:"))
+        TextWhichShouldReplacedLine = input("Enter text that should replace that line:")
+        LineNo = 0
+        OpenFile = open(FileName, "w")
+        for line in OpenFile:
+            LineNo+=1
+            # print(line)
+            if EnteredLineNo == LineNo:
+                # NewLine = line.replace(TextWhichShouldReplacedLine)
+                line.write(TextWhichShouldReplacedLine)
+                ReadFile()
 
 while True:
+
     NewFile = input("""\nWant to add file, Enter 'Yes' or 'No' or 'E' to exit: """)
     while True:
         if NewFile=="Yes":
@@ -51,6 +68,7 @@ while True:
                     print("\nA. Read file",end="\n")
                     print("B. Delete file and start over,",end="\n")
                     print("C. Add text in file", end="\n")
+                    print("D. Replace text line in file", end="\n")
                     print("E. Exit")
                     option = input("Choose the option: ")
                     if option == "A": # To Read file
@@ -59,6 +77,8 @@ while True:
                         Delete_StartOver()
                     elif option == "C": # To Append file
                         Append()
+                    elif option == "D": # To Replace text line in file
+                        RepalceLine()
                     elif option == "E":
                         break
                     else:
