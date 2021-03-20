@@ -10,7 +10,7 @@ def TicTacToe(CurrentPosition):
                 print("-",end="")
         print(end="\n")
 
-CurrentPosition=[[" "," "," "], [" "," "," "], [" "," "," "],]
+CurrentPosition=[[" "," "," "], [" "," "," "], [" "," "," "]]
 # print(CurrentPosition)
 TicTacToe(CurrentPosition)
 Player = 1
