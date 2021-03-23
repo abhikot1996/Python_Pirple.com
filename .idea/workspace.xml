@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6287e431-45ec-4860-91e9-582d56ef117d" name="Default Changelist" comment="" />
+    <list default="true" id="6287e431-45ec-4860-91e9-582d56ef117d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Udemy/Python-Python-All-In-One-Mastery-From-Beginner-to-AdvanceEasy-Way-/Python-Python-All-In-One-Mastery-From-Beginner-to-AdvanceEasy-Way-/Practise.py" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -42,8 +45,8 @@
       <recent name="E:\AK\Study\Programming Languages\GitHub\Pirple.com\Python_Pirple.com" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Project_1_Connect_4">
-    <configuration name="Demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Practise">
+    <configuration name="Classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Pirple.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Homwork_8_I_O" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Practise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Pirple.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homwork_8_I" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Udemy/Python-Python-All-In-One-Mastery-From-Beginner-to-AdvanceEasy-Way-/Python-Python-All-In-One-Mastery-From-Beginner-to-AdvanceEasy-Way-" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\AK\Study\Programming Languages\GitHub\Pirple.com\Python_Pirple.com\Homwork_8_I_O.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Udemy/Python-Python-All-In-One-Mastery-From-Beginner-to-AdvanceEasy-Way-/Python-Python-All-In-One-Mastery-From-Beginner-to-AdvanceEasy-Way-/Practise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Practise" />
+        <item itemvalue="Python.Classes" />
         <item itemvalue="Python.Project_1_Connect_4" />
         <item itemvalue="Python.TicTacToe" />
         <item itemvalue="Python.Homework_8_Input_Output_Files" />
-        <item itemvalue="Python.Demo" />
-        <item itemvalue="Python.Homwork_8_I_O" />
       </list>
     </recent_temporary>
   </component>
@@ -168,5 +171,17 @@
       <updated>1614626551455</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
