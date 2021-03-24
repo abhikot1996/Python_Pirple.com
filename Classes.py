@@ -4,7 +4,7 @@ Classes
 # Defining Class
 class Team:
     def __init__(self,Name="Name",Origin="Origin"): # if Values are not given for name and origin then show default
-        self.TeamName = Name
+        self.TeamName = Name # Initialisation of variable to attributes using __init__(self)
         self.TeamOrigin = Origin
     def DefiningTeamName(self,Name):
         self.TeamName= Name
