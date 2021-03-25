@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6287e431-45ec-4860-91e9-582d56ef117d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pets_Part_A_In_Class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes.py" afterDir="false" />
-    </list>
+    <list default="true" id="6287e431-45ec-4860-91e9-582d56ef117d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +42,7 @@
       <recent name="E:\AK\Study\Programming Languages\GitHub\Pirple.com\Python_Pirple.com" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Practise">
+  <component name="RunManager" selected="Python.Pets_Part_A_In_Class">
     <configuration name="Class Inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Pirple.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Practise" />
         <item itemvalue="Python.Pets_Part_A_In_Class" />
+        <item itemvalue="Python.Practise" />
         <item itemvalue="Python.Class Inheritance" />
         <item itemvalue="Python.Classes" />
         <item itemvalue="Python.Project_1_Connect_4" />
