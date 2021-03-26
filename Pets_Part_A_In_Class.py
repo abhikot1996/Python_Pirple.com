@@ -62,6 +62,17 @@ class Cat(Pet):
     def __str__(self):
         return (self.name + " likes to sit in "+self.FavoritePlaceToSit)
 
+class Human:
+    def __init__(self,name,Pets):
+        self.name = name
+        self.Pets = Pets
+
+    def hasPets(self):
+        if len(self.Pets) != 0:
+            return "yes"
+        else:
+            return "no"
+
 
 huskyDog = Dog("Snowball",5,False,True,"Husky","Stick")
 Play = huskyDog.wantsToPlay()
@@ -76,7 +87,10 @@ typicalCat.wantsToSit()
 
 print(typicalCat)
 
-
+yourAverageHuman  = Human("Alice",[huskyDog,typicalCat])
+hasPet = yourAverageHuman.hasPets()
+print(hasPet)
+print(yourAverageHuman.Pets[1].name)
 
 
 # Pet1 = Pet("Jim",3,False,True)
