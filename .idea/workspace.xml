@@ -42,8 +42,8 @@
       <recent name="E:\AK\Study\Programming Languages\GitHub\Pirple.com\Python_Pirple.com" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Introduction_To_Importing">
-    <configuration name="Class Inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Practise">
+    <configuration name="Alternative_Import_Method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Pirple.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +55,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class Inheritance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alternative_Import_Method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Introduction_To_Importing" />
         <item itemvalue="Python.Practise" />
+        <item itemvalue="Python.Alternative_Import_Method" />
+        <item itemvalue="Python.Introduction_To_Importing" />
         <item itemvalue="Python.Homework_9_Classes" />
         <item itemvalue="Python.Pets_Part_A_In_Class" />
-        <item itemvalue="Python.Class Inheritance" />
       </list>
     </recent_temporary>
   </component>
